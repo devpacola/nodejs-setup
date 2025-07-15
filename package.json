@@ -1,0 +1,25 @@
+{
+	"name": "alter-name-for-project",
+	"author": "Dalton Pacola Franco",
+	"version": "0.0.1",
+	"main": "src/server.js",
+	"description": "alter-description-for-project",
+	"type": "module",
+	"scripts": {
+		"lint": "eslint .",
+		"format": "prettier --write .",
+		"start:prod": "node src/server.js",
+		"start:dev": "node --watch src/server.js"
+	},
+	"keywords": [],
+	"license": "MIT",
+	"engines": {
+		"node": "22"
+	},
+	"devDependencies": {
+		"eslint": "9.31.0",
+		"eslint-config-prettier": "10.1.5",
+		"eslint-plugin-prettier": "5.5.1",
+		"prettier": "3.6.2"
+	}
+}
